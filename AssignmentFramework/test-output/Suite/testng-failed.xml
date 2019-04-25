@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <test thread-count="5" name="Test(failed)" parallel="methods">
+    <classes>
+      <class name="com.assignment.tests.CreateSurvey">
+        <methods>
+          <include name="testBedSetup"/>
+          <include name="verifyAddPageLogic"/>
+          <include name="testTearDown"/>
+          <include name="verifyEditPageTitle"/>
+          <include name="createSurvey"/>
+          <include name="verifyEditTitle"/>
+          <include name="driverInitialization"/>
+          <include name="testBedTearDown"/>
+        </methods>
+      </class> <!-- com.assignment.tests.CreateSurvey -->
+      <class name="com.assignment.tests.Login">
+        <methods>
+          <include name="verifyLogin"/>
+          <include name="testBedSetup"/>
+          <include name="testTearDown"/>
+          <include name="driverInitialization"/>
+          <include name="testBedTearDown"/>
+        </methods>
+      </class> <!-- com.assignment.tests.Login -->
+      <class name="com.assignment.tests.Logout">
+        <methods>
+          <include name="testBedSetup"/>
+          <include name="testTearDown"/>
+          <include name="driverInitialization"/>
+          <include name="verifyLogout"/>
+          <include name="testBedTearDown"/>
+        </methods>
+      </class> <!-- com.assignment.tests.Logout -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

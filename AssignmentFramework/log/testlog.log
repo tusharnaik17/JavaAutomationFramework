@@ -1,0 +1,36 @@
+2019-04-25 16:13:49 INFO  PropertyFileReader:23 - Loaded .\src\main\resources\properties\config.properties file
+2019-04-25 16:13:49 INFO  PropertyFileReader:23 - Loaded .\src\main\resources\properties\testData.properties file
+2019-04-25 16:13:49 INFO  Setup:54 - 
+
+2019-04-25 16:13:49 INFO  Setup:55 - **********************************************
+2019-04-25 16:13:49 INFO  Setup:56 - Executing Test Case Number: 1
+2019-04-25 16:13:53 INFO  Driver:24 - Initialized Chrome driver
+2019-04-25 16:14:01 INFO  Driver:20 - Test Case Name: createSurvey
+2019-04-25 16:14:01 INFO  Driver:21 - Started Execution for >>> createSurvey from class com.assignment.tests.CreateSurvey
+2019-04-25 16:14:01 INFO  LoginPage:33 - Login process..
+2019-04-25 16:14:14 INFO  LoginPage:36 - Email Entered.
+2019-04-25 16:14:14 INFO  LoginPage:38 - Password Entered.
+2019-04-25 16:14:26 INFO  LoginPage:40 - Login Successfully.
+2019-04-25 16:14:26 INFO  SeleniumUtils:30 - Waiting for element to be visible....
+2019-04-25 16:14:49 INFO  CreateSurveyPage:38 - Create Survey Link clicked.
+2019-04-25 16:14:49 INFO  SeleniumUtils:23 - Waiting for element to be visible....
+2019-04-25 16:14:49 INFO  SeleniumUtils:26 - Element found
+2019-04-25 16:14:50 INFO  CreateSurveyPage:46 - Title Entered.
+2019-04-25 16:14:50 INFO  SeleniumUtils:30 - Waiting for element to be visible....
+2019-04-25 16:15:09 INFO  CreateSurveyPage:58 - Survey Created Successfully.
+2019-04-25 16:15:09 INFO  Driver:30 - PASSED: createSurvey
+2019-04-25 16:15:09 INFO  Setup:73 - Closed browser
+2019-04-25 16:15:09 INFO  Setup:54 - 
+
+2019-04-25 16:15:09 INFO  Setup:55 - **********************************************
+2019-04-25 16:15:09 INFO  Setup:56 - Executing Test Case Number: 2
+2019-04-25 16:15:12 INFO  Driver:24 - Initialized Chrome driver
+2019-04-25 16:15:29 INFO  Driver:20 - Test Case Name: verifyLogin
+2019-04-25 16:15:29 INFO  Driver:21 - Started Execution for >>> verifyLogin from class com.assignment.tests.CreateSurvey
+2019-04-25 16:15:29 INFO  LoginPage:33 - Login process..
+2019-04-25 16:15:37 INFO  LoginPage:36 - Email Entered.
+2019-04-25 16:15:37 INFO  LoginPage:38 - Password Entered.
+2019-04-25 16:15:49 INFO  LoginPage:40 - Login Successfully.
+2019-04-25 16:15:49 INFO  Driver:30 - PASSED: verifyLogin
+2019-04-25 16:15:49 INFO  Setup:73 - Closed browser
+2019-04-25 16:15:49 INFO  Setup:46 - Closed browser

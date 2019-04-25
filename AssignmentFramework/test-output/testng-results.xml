@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="119831" started-at="2019-04-25T10:43:49Z" finished-at="2019-04-25T10:45:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="119831" started-at="2019-04-25T10:43:49Z" finished-at="2019-04-25T10:45:49Z">
+      <class name="com.assignment.tests.CreateSurvey">
+        <test-method status="PASS" signature="testBedSetup()[pri:0, instance:com.assignment.tests.CreateSurvey@66480dd7]" name="testBedSetup" is-config="true" duration-ms="12" started-at="2019-04-25T10:43:49Z" finished-at="2019-04-25T10:43:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBedSetup -->
+        <test-method status="PASS" signature="driverInitialization()[pri:0, instance:com.assignment.tests.CreateSurvey@66480dd7]" name="driverInitialization" is-config="true" duration-ms="12364" started-at="2019-04-25T10:43:49Z" finished-at="2019-04-25T10:44:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInitialization -->
+        <test-method status="PASS" signature="createSurvey()[pri:0, instance:com.assignment.tests.CreateSurvey@66480dd7]" name="createSurvey" duration-ms="67078" started-at="2019-04-25T10:44:01Z" finished-at="2019-04-25T10:45:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createSurvey -->
+        <test-method status="PASS" signature="testTearDown()[pri:0, instance:com.assignment.tests.CreateSurvey@66480dd7]" name="testTearDown" is-config="true" duration-ms="0" started-at="2019-04-25T10:45:09Z" finished-at="2019-04-25T10:45:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTearDown -->
+        <test-method status="PASS" signature="driverInitialization()[pri:0, instance:com.assignment.tests.CreateSurvey@66480dd7]" name="driverInitialization" is-config="true" duration-ms="20091" started-at="2019-04-25T10:45:09Z" finished-at="2019-04-25T10:45:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInitialization -->
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:com.assignment.tests.CreateSurvey@66480dd7]" name="verifyLogin" duration-ms="20279" started-at="2019-04-25T10:45:29Z" finished-at="2019-04-25T10:45:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="testTearDown()[pri:0, instance:com.assignment.tests.CreateSurvey@66480dd7]" name="testTearDown" is-config="true" duration-ms="1" started-at="2019-04-25T10:45:49Z" finished-at="2019-04-25T10:45:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTearDown -->
+        <test-method status="PASS" signature="testBedTearDown()[pri:0, instance:com.assignment.tests.CreateSurvey@66480dd7]" name="testBedTearDown" is-config="true" duration-ms="1" started-at="2019-04-25T10:45:49Z" finished-at="2019-04-25T10:45:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBedTearDown -->
+      </class> <!-- com.assignment.tests.CreateSurvey -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
